@@ -11,17 +11,15 @@ int main() {
 
 	while(1) {
 		printf("Enter a command or 'exit' to quit: $ ");
-		scanf("%s", &command); 		
+		scanf("%s", command); 		
 		
 		if (strcmp(command, exit) == 0)
 			break;
 
-		if (fork() != 0) {
-			// parent code
+		if (fork() != 0) { //parent
 			int status;
 			waitpid(-1, &status, 0);
-		} else {
-			// child code
+		} else { //child
 			execve(command, NULL, 0);
 			break;
 		}
