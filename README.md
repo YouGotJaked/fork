@@ -1,6 +1,6 @@
 # Lab 1 - Jake Day
 
-This project is designed to help the user gain a better understanding of the creation of processes with Unix-like operating systems by using the fork() system call. All programs are written in c.
+This project is designed to help the user gain a better understanding of the creation of processes with Unix-like operating systems by using the fork() system call. All programs are written in C.
 
 ## Getting Started
 
