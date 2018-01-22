@@ -26,7 +26,7 @@ int main() {
                 		(*count)++;
 				children = 3;
             		}
-		i = -1;
+			i = -1;
 		}
 	if (lvl >= MAX)
 		break;
