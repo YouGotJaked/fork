@@ -12,7 +12,7 @@ To compile and run these programs, your machine must be running a Unix-based ope
 
 ### Compiling with GCC
 
-To compile a .c file, open up Terminal and navigate to the project directory
+To compile a .c file, open up Terminal and navigate to the project directory:
 
 ```
 cd /home/username/yourdirectory
