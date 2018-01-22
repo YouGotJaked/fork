@@ -22,11 +22,11 @@ int main() {
 			waitpid(-1, &status, 0);
 		} else { //child
 			lvl++;
-            printf("Child PID: %d | Parent PID: %d\n", getpid(), getppid());
-            if (lvl == 3 && *count < 3) { //one process in level 3 creates 2 children, other three create 3 children
-                (*count)++;
+           		printf("Child PID: %d | Parent PID: %d\n", getpid(), getppid());
+            		if (lvl == 3 && *count < 3) { //one process in level 3 creates 2 children, other three create 3 children
+                		(*count)++;
 				children = 3;
-            }
+            		}
 			i = -1;
 		}
 		if (lvl >= MAX)
