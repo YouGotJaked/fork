@@ -33,7 +33,7 @@ To run your program, execute the following command:
 
 ### fork_1.c
 
-This program acts as a simple shell. It takes an input string from stdin and attempts to launch a program using execve(). If the string "exit" is entered, the shell terminates. Users should test this program by entering one of the other files' executables (e.g. "./fork_2", "./fork_3", "./hello_world", etc.)
+This program acts as a simple shell. It takes an input string from stdin and attempts to launch a program using execve(). If the string "exit" is entered, the shell terminates. Users should test this program by entering one of the other files' executables (e.g. './fork_2', './fork_3', './hello_world', etc.)
 
 ### fork_2.c
 
