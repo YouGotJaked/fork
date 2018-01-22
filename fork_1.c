@@ -25,9 +25,3 @@ int main() {
 		}
 	}
 }
-// execute program in current dir
-// take input as stdin (enter command)
-// doesnt exist / cant run (ask again)
-// only have to exit once
-// child should break out of loop
-// child needs to say its parent's pid and is own pid

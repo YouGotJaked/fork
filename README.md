@@ -33,16 +33,20 @@ To run your program, execute the following command:
 
 ### fork_1.c
 
-This program acts as a simple shell. It takes an input string from stdin and attempts to launch a program using execve(). If the string "exit" is entered, the shell terminates.
+This program acts as a simple shell. It takes an input string from stdin and attempts to launch a program using execve(). If the string "exit" is entered, the shell terminates. Users should test this program by entering one of the other files' executables (e.g. "./fork_2", "./fork_3", "./hello_world", etc.)
 
 ### fork_2.c
 
-This program creates exactly eight child processes (not including the initial program itself). A single procress is not allowed to create more than two processes.
+This program creates exactly eight child processes (not including the initial program itself). A single procress is not allowed to create more than two processes. Each child and its parent is printed to stdout.
 
 ### fork_3.c
 
-This program creates exactly twelve child processes. No single process which creates children is allowed to create less than two child processes or more than three.
+This program creates exactly twelve child processes. No single process which creates children is allowed to create less than two child processes or more than three. Each child and its parent is printed to stdout.
 
 ### fork_4.c
 
-This program creates exactly seventeen child processes. No single process which creates children is allowed to create less than two child processes or more than three.
+This program creates exactly seventeen child processes. No single process which creates children is allowed to create less than two child processes or more than three. Each child and its parent is printed to stdout.
+
+### hello_world.c
+
+This program simply prints out "Hello world." It can be used as a test program inside the shell of fork_1.
