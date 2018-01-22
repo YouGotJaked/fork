@@ -14,7 +14,7 @@ int main() {
 			waitpid(-1, &status, 0);
 		} else {
 			lvl++;
-			printf("The child PID is %d and the parent PID is %d\n", getpid(), getppid());
+            printf("Child PID: %d | Parent PID: %d\n", getpid(), getppid());
 			i = -1;
 		}
 	
